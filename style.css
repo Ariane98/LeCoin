@@ -1,0 +1,97 @@
+/* On dÃ©fini les styles globaux Ã  notre site ; gÃ©nÃ©ralement la police de caractÃ¨re */
+body {
+    font-family:verdana;
+    font-size:12px;
+
+    /* On dÃ©fini une taille fixe pour notre site et on le centre au milieu de la page */
+    width:960px;margin:auto;
+}
+nav {
+    text-align:center;
+}
+nav li {
+    list-style-type: none;
+    display:inline-block;
+    padding:0px 10px;
+}
+button, input[type=submit] {
+    background: none repeat scroll 0 0 #f60;
+    border: 0 none;
+    color:white;
+    padding:5px;
+    border-radius: 5px;
+    font-size:12px;
+    text-transform: uppercase;font-weight: bold;
+}
+
+/* Classes utiles */
+.important {font-size:15px;}
+
+header img {margin:5px;}
+header form {
+    float:right;
+    background: none repeat scroll 0 0 #e3dccd;
+    border-radius: 0px 0px 12px 12px;
+    padding:10px;
+}
+header ul {
+    margin: 20px 0px;
+}
+header nav li {
+    border-left: 1px solid #999;
+    font-size:14px;
+}
+header nav li:first-child {
+    border-left: none;
+}
+
+
+#mainForm {
+    background: none repeat scroll 0 0 #e3dccd;
+    border-radius: 12px;
+    margin:10px;text-align:center;
+    height:60px;
+    padding:10px;
+}
+#mainForm input, #mainForm select {
+    width:200px;
+}
+#mainForm input[type=submit] {
+    margin-top:10px;
+    float:right;
+}
+
+#mainContent {
+    margin: 25px 0px;
+}
+
+aside {float:right;width:220px;padding:10px;text-align:center;background: none repeat scroll 0 0 #e3dccd;}
+#mesAnnonces {float:left;width:700px;}
+
+aside .annonce-side {
+    height: 150px;
+    background-color:white;
+    margin:10px;padding:10px;
+}
+aside .title {
+    background: none repeat scroll 0 0 #f60;
+    color: #fff;
+    font-weight: bold;
+    margin:10px;padding:10px;
+}
+
+.annonce {clear:both;height:125px;cursor:pointer;padding:10px;}
+.annonce:hover {background: none repeat scroll 0 0 #eaebf0;}
+.annonce div {float:left;}
+.annonce .date {width:150px;text-align:center;}
+.annonce .image {width:200px;text-align:center;margin:0px 10px;}
+.annonce img {width:175px;}
+.annonce .description {width:300px;padding:5px;}
+
+
+footer {
+    clear:both;
+    padding:20px 0px;
+    text-align: center;
+    color:grey;
+}

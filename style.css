@@ -1,9 +1,9 @@
-/* On dÃ©fini les styles globaux Ã  notre site ; gÃ©nÃ©ralement la police de caractÃ¨re */
+/* On définit les styles globaux Ã  notre site ; généralement la police de caractère */
 body {
     font-family:verdana;
     font-size:12px;
 
-    /* On dÃ©fini une taille fixe pour notre site et on le centre au milieu de la page */
+    /* On définit une taille fixe pour notre site et on le centre au milieu de la page */
     width:960px;margin:auto;
 }
 nav {
